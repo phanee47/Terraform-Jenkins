@@ -7,13 +7,13 @@ variable "aws_region" {
 variable "aws_access_key" {
   description = "AWS access key"
   type        = string
-  default     = "AKIAVYFZQJFVWCNJQMKS"
+  default     = " "
 }
 
 variable "aws_secret_key" {
   description = "AWS secret key"
   type        = string
-  default     = "+Bfky/jRuvAkey62V1mFN2BwUtHjzQKkmtzuSH44"
+  default     = " "
 }
 
 variable "vpc_cidr_block" {
