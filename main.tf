@@ -8,6 +8,7 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
+  shared_credentials_file = "/home/phanee/.aws/credentials"
   profile = "prod"
 }
 
