@@ -8,8 +8,8 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
-  shared_credentials_file = "/home/phanee/.aws/credentials"
-  profile = "prod"
+  access_key = var.aws_access_key
+  secret_key = var.aws_secret_key
 }
 
 resource "aws_vpc" "main" {
